@@ -68,3 +68,13 @@ def main():
 - Reformat the main.py
 `black .`
 
+```
+git remote set-url origin https://github.com/yonyu/langchain-projects.git
+
+git branch -M project/hello-world
+
+git push --set-upstream origin project/hello-world
+# equivalent to:
+git push -u origin project/hello-world
+
+```
