@@ -78,3 +78,10 @@ git push --set-upstream origin project/hello-world
 git push -u origin project/hello-world
 
 ```
+
+- Download and run ollama gemma3:270m
+```
+ollama pull gemma3:270m
+ollama list
+ollama run gemma3:270m
+```
