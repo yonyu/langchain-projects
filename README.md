@@ -87,3 +87,4 @@ ollama run gemma3:270m
 ```
 
 git commit -m "Using hello world chain" --amend
+git push -f
