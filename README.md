@@ -88,3 +88,12 @@ ollama run gemma3:270m
 
 git commit -m "Using hello world chain" --amend
 git push -f
+
+```.env
+OPENAI_API_KEY=
+GOOGLE_API_KEY=
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=
+LANGSMITH_PROJECT=Hello World
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+```
